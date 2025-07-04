@@ -22,7 +22,7 @@ SMTP_SERVER = 'smtp.gmail.com'
 SMTP_PORT = 587
 SENDER_EMAIL = 'your_email@gmail.com'
 SENDER_PASSWORD = 'your_app_password'
-SNS_TOPIC_ARN = 'arn:aws:sns:us-east-1:xxxxxxxxxxxx:YourSNSTopic'  # Optional
+SNS_TOPIC_ARN = "arn:aws:sns:us-east-1:225989355177:notifications:dbd92420-5a80-407f-9155-813f1964753e"  # Optional
 
 # ---------------- EMAIL FUNCTION ----------------
 def send_email(to_email, subject, body):
